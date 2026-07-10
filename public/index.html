@@ -7,7 +7,7 @@
 <meta property="og:title" content="VITANY® — İçerik Planı Önizleme">
 <meta property="og:description" content="Sculpt koleksiyonu · Temmuz içerik planı feed önizlemesi">
 <meta name="theme-color" content="#1A1512">
-<link rel="icon" href="https://picsum.photos/100">
+<link rel="icon" href="logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -69,6 +69,13 @@
     object-fit: cover;
     display: block;
     border-radius: 50%;
+    /* Resim yüklenemediğinde alt metninin tasarımı bozmasını engeller: */
+    font-size: 10px;
+    line-height: 84px;
+    text-align: center;
+    color: var(--muted);
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   .stats { flex: 1; display: flex; justify-content: space-around; text-align: center; min-width: 0; }
@@ -182,7 +189,7 @@
 
     <div class="phead">
       <div class="prow">
-        <div class="avatar"><img id="pavatar" src="https://picsum.photos/100" alt="VITANY"></div>
+        <div class="avatar"><img id="pavatar" src="logo.jpg" alt="VITANY"></div>
         <div class="stats" id="pstats"></div>
       </div>
       <div class="bio">
@@ -211,7 +218,7 @@
     <div class="overlay" id="overlay">
       <div class="ovhead">
         <button class="back" id="back"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
-        <div class="miniav"><img id="ovav" src="https://picsum.photos/100" alt=""></div>
+        <div class="miniav"><img id="ovav" src="logo.jpg" alt=""></div>
         <div class="who"><b id="ovname">vitany <svg viewBox="0 0 24 24"><path d="M12 2l2.4 1.8 3 .2.9 2.9 2.4 1.8-1 2.9 1 2.9-2.4 1.8-.9 2.9-3 .2L12 22l-2.4-1.8-3-.2-.9-2.9L3.3 15.3l1-2.9-1-2.9 2.4-1.8.9-2.9 3-.2z"/></svg></b><span id="ovsub"></span></div>
         <div class="more">···</div>
       </div>
@@ -236,7 +243,7 @@
 const IMG_RE=/\.(jpe?g|png|webp|gif|avif|bmp)$/i, VID_RE=/\.(mp4|mov|webm|m4v)$/i;
 let FEED=null;
 
-const FALLBACK={profile:{username:"vitany.official",name:"VITANY®",category:"Spor giyim markası",avatar:"https://picsum.photos/100",verified:true,bio:["Vitaniate your potential.","Sculpt koleksiyonu · terletmez form"],link:"vitany.com",linkUrl:"https://vitany.com",stats:{posts:"9",followers:"30 B",following:"2"},highlights:[{label:"Kampanya",sub:"Lansman",grad:["#7a2a3a","#4a1622"]},{label:"Sadakat",sub:"PR",grad:["#c9a98d","#a07b55"]},{label:"Güven",sub:"Kalite",grad:["#3a332e","#161311"]},{label:"Sculpt",sub:"Koleksiyon",grad:["#9a3b4e","#5e1f2b"]}]},posts:[]};
+const FALLBACK={profile:{username:"vitany.official",name:"VITANY®",category:"Spor giyim markası",avatar:"logo.jpg",verified:true,bio:["Vitaniate your potential.","Sculpt koleksiyonu · terletmez form"],link:"vitany.com",linkUrl:"https://vitany.com",stats:{posts:"9",followers:"30 B",following:"2"},highlights:[{label:"Kampanya",sub:"Lansman",grad:["#7a2a3a","#4a1622"]},{label:"Sadakat",sub:"PR",grad:["#c9a98d","#a07b55"]},{label:"Güven",sub:"Kalite",grad:["#3a332e","#161311"]},{label:"Sculpt",sub:"Koleksiyon",grad:["#9a3b4e","#5e1f2b"]}]},posts:[]};
 
 async function boot(){
   try{
@@ -255,8 +262,8 @@ function renderProfile(){
   const p=FEED.profile;
   document.getElementById('tbname').textContent=p.username.replace('.official','');
   document.getElementById('tbverif').style.display=p.verified?'':'none';
-  document.getElementById('pavatar').src=p.avatar||'https://picsum.photos/100';
-  document.getElementById('ovav').src=p.avatar||'https://picsum.photos/100';
+  document.getElementById('pavatar').src=p.avatar||'logo.jpg';
+  document.getElementById('ovav').src=p.avatar||'logo.jpg';
   document.getElementById('pstats').innerHTML=
     `<div><b>${p.stats.posts}</b><span>gönderi</span></div>
      <div><b>${p.stats.followers}</b><span>takipçi</span></div>
