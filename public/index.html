@@ -235,8 +235,8 @@ function renderProfile(){
   const p=FEED.profile;
   document.getElementById('tbname').textContent=p.username.replace('.official','');
   document.getElementById('tbverif').style.display=p.verified?'':'none';
-  document.getElementById('pavatar').src=p.avatar||'logo.svg';
-  document.getElementById('ovav').src=p.avatar||'logo.svg';
+  document.getElementById('pavatar').src=p.avatar||'logo.jpg';
+  document.getElementById('ovav').src=p.avatar||'logo.jpg';
   document.getElementById('pstats').innerHTML=
     `<div><b>${p.stats.posts}</b><span>gönderi</span></div>
      <div><b>${p.stats.followers}</b><span>takipçi</span></div>
