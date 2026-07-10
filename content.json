@@ -1,0 +1,88 @@
+{
+  "profile": {
+    "username": "vitany.official",
+    "name": "VITANY®",
+    "category": "Spor giyim markası",
+    "avatar": "logo.svg",
+    "verified": true,
+    "bio": [
+      "Vitaniate your potential.",
+      "Sculpt koleksiyonu · terletmez form",
+      "Bedeni değil, duruşu şekillendirir."
+    ],
+    "link": "vitany.com",
+    "linkUrl": "https://vitany.com",
+    "stats": { "posts": "9", "followers": "30 B", "following": "2" },
+    "highlights": [
+      { "label": "Kampanya", "sub": "Lansman", "grad": ["#7a2a3a", "#4a1622"] },
+      { "label": "Sadakat", "sub": "PR", "grad": ["#c9a98d", "#a07b55"] },
+      { "label": "Güven", "sub": "Kalite", "grad": ["#3a332e", "#161311"] },
+      { "label": "Sculpt", "sub": "Koleksiyon", "grad": ["#9a3b4e", "#5e1f2b"] }
+    ]
+  },
+  "posts": [
+    {
+      "n": 1, "section": "BÖLÜM 1", "theme": "KAMPANYA LANSMANI",
+      "title": "9 Temmuz İndirim Teaser'ı", "hint": "CAROUSEL",
+      "world": "Ink & Bone tonlarında minimal tipografik tasarım, %50 indirim badge'i.",
+      "caption": "Sadece bedenin değil, motivasyonun da yenileniyor. 9 Temmuz'da büyük değişime hazır mısın?\n\nSeçili ürünlerdeki %50 indirim için alarmını kur, sepetini şimdiden hazırlamaya başla! ⏰🛒\n\n#Vitany #Kampanya #ÇokYakında",
+      "likes": "2.410", "palette": ["#221a17", "#4a1622"]
+    },
+    {
+      "n": 2, "section": "BÖLÜM 1", "theme": "KAMPANYA LANSMANI",
+      "title": "Sculpt Koleksiyonu Detayları", "hint": "CAROUSEL",
+      "world": "Şekillendiren yapıya odaklı makro kumaş çekimleri, sıcak ink & berry tonları.",
+      "caption": "Bedeni destekleyen estetik ve öz güven.\n\nSculpt koleksiyonunun arkasındaki bilim: Seni şekillendiren, nefes alan ve seninle birlikte hareket eden kusursuz form.\n\nDetayları keşfetmek için kaydır. 👉\n\n#Vitany #Sculpt",
+      "likes": "1.870", "palette": ["#7a2a3a", "#3a1018"]
+    },
+    {
+      "n": 3, "section": "BÖLÜM 1", "theme": "KAMPANYA LANSMANI",
+      "title": "Sculpt Hareket Halinde", "hint": "REELS",
+      "world": "Yönlü ışık altında akış ve ritmi gösteren, terletmez vaadini ispatlayan performans videosu.",
+      "caption": "Ritmini bul, akışta kal.\n\nSculpt koleksiyonu, en zorlu anlarda bile esnekliğini korur. Gücünü hisset! 💪\n\n#Vitany #Sculpt",
+      "likes": "3.120", "palette": ["#5e1f2b", "#1a0d10"]
+    },
+    {
+      "n": 4, "section": "BÖLÜM 2", "theme": "SADAKAT",
+      "title": "Sadakat Ödülü — PR Paketi", "hint": "TEKLİ GÖRSEL",
+      "world": "Sand/Blush tonlarında, negatif boşluklu premium hediye kutusunun makro çekimi.",
+      "caption": "En iyisini hak ettiğinizi biliyoruz! Her ay en çok alışveriş yapan Vitany kadınlarına, markamızın ruhunu yansıtan özel PR paketlerimizi hediye ediyoruz. Bir sonraki paket belki de senin kapını çalar? 🎁\n\n#Vitany #Sadakat",
+      "likes": "1.540", "palette": ["#cbb79d", "#9c8064"]
+    },
+    {
+      "n": 5, "section": "BÖLÜM 2", "theme": "SADAKAT",
+      "title": "Renk Kombinleri & Sepet", "hint": "TEKLİ / KOLAJ",
+      "world": "Wine tayt + Sand sutyen; styling odaklı yaratıcı bir look tasarımı.",
+      "caption": "Antrenmandan sokağa, kahve buluşmasından gün boyu süren duruşa. Tek renk kuralını bozuyoruz; \"Wine\" ve \"Sand\" uyumuyla kendi zıtlığını yarat. Farklı renkleri kombinle, sepetine ekle ve tek seferde tüm stilini tamamla!\n\n#Vitany #Wine #Sand",
+      "likes": "1.990", "palette": ["#8a5a52", "#6e2233"]
+    },
+    {
+      "n": 6, "section": "BÖLÜM 2", "theme": "SADAKAT",
+      "title": "Topluluğun Gücü (#VitanyGirl)", "hint": "REELS · UGC",
+      "world": "Müşteriden gelen estetik antrenman anı, tek tip V rozetli repost şablonunda.",
+      "caption": "Vitany kadını sınır tanımaz. @kullaniciadi'nın kendi potansiyelini hissettiği o an! Sen de #VitanyGirl etiketiyle güçlü kombinini paylaş, topluluğumuza ilham ol.\n\n#Vitany #VitanyGirl",
+      "likes": "2.760", "palette": ["#b49b7c", "#e7c6bf"]
+    },
+    {
+      "n": 7, "section": "BÖLÜM 3", "theme": "GÜVEN",
+      "title": "Marka Manifestosu", "hint": "TEKLİ GÖRSEL",
+      "world": "Temiz insan + tipografi; güçlü serif fontlarla \"SCULPTED CONFIDENCE\".",
+      "caption": "Vitany sadece bedeni değil, duruşu şekillendirir. Ürünün sadece kendisini değil, verdiği öz güven hissini giyin. Kendi kurallarını koyan kadınlar için.\n\n#Vitany #SculptedConfidence",
+      "likes": "4.030", "palette": ["#2a2420", "#0f0c0a"]
+    },
+    {
+      "n": 8, "section": "BÖLÜM 3", "theme": "GÜVEN",
+      "title": "Üretim & Kalite", "hint": "TEKLİ GÖRSEL",
+      "world": "Bir dikiş detayı ya da patentli üretim aşaması; kalite ve güven odaklı kare.",
+      "caption": "Kusursuz fit, tesadüf değildir. İpliğimizden özel dikiş tekniklerimize kadar her detay, formunu uzun süre koruması için pürüzsüzce tasarlandı. Fark, sanat yönetiminde ve kalitede gizli.\n\n#Vitany #Kalite",
+      "likes": "1.680", "palette": ["#3a332e", "#161311"]
+    },
+    {
+      "n": 9, "section": "BÖLÜM 3", "theme": "GÜVEN",
+      "title": "Sokağa Taşan Duruş", "hint": "REELS",
+      "world": "Tayt & bralet üzerine şık ceketle sokağa çıkış; performansın lifestyle ile birleşimi.",
+      "caption": "Konforunu stüdyoda bırakma, sokağa taşı. Gün boyu süren destek ve form ile her anına dinamizm kat.\n\n#Vitany #Sculpt #Lifestyle",
+      "likes": "2.240", "palette": ["#4a453f", "#161311"]
+    }
+  ]
+}
