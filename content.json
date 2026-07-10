@@ -14,10 +14,10 @@
     "linkUrl": "https://vitany.com",
     "stats": { "posts": "9", "followers": "30 B", "following": "2" },
     "highlights": [
-      { "label": "Kampanya", "sub": "Lansman", "grad": ["#7a2a3a", "#4a1622"] },
-      { "label": "Sadakat", "sub": "PR", "grad": ["#c9a98d", "#a07b55"] },
-      { "label": "Güven", "sub": "Kalite", "grad": ["#3a332e", "#161311"] },
-      { "label": "Sculpt", "sub": "Koleksiyon", "grad": ["#9a3b4e", "#5e1f2b"] }
+      { "label": "1", "sub": "Lansman", "grad": ["#7a2a3a", "#4a1622"] },
+      { "label": "2", "sub": "PR", "grad": ["#c9a98d", "#a07b55"] },
+      { "label": "3", "sub": "Kalite", "grad": ["#3a332e", "#161311"] },
+      { "label": "4", "sub": "Koleksiyon", "grad": ["#9a3b4e", "#5e1f2b"] }
     ]
   },
   "posts": [
